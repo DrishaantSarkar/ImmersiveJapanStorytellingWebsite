@@ -1,7 +1,7 @@
 
-  # Immersive Japan Storytelling Website
+  # Japan E-Learning Website
 
-  This is a code bundle for Immersive Japan Storytelling Website. The original project is available at https://www.figma.com/design/7eOkwDuMnDeLEx4AyNGsXo/Immersive-Japan-Storytelling-Website.
+  This is a code bundle for Japan E-Learning Website. The original project is available at https://www.figma.com/design/7eOkwDuMnDeLEx4AyNGsXo/Japan-E-Learning-Website.
 
   ## Running the code
 
