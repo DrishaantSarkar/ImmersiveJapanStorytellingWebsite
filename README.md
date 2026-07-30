@@ -152,7 +152,32 @@ Every design decision prioritizes atmosphere, readability, and user engagement w
 
 ---
 
-## How to Run Locally
+## Animations
+
+Animation is central to how the platform delivers its cinematic, story-driven feel. Motion is used to guide attention, reinforce atmosphere, and make transitions between environments feel seamless rather than abrupt.
+
+### Animation Layers
+
+* **Scene transitions** — smooth cross-fades and motion-based transitions carry the user from one immersive environment to the next without jarring cuts
+* **Entrance animations** — landmark elements, information panels, and UI components animate into view as each scene loads
+* **Micro-interactions** — hover, tap, and focus states on interactive landmarks provide subtle motion feedback to signal interactivity
+* **Parallax and depth motion** — layered background and foreground elements move at different speeds to create a sense of depth within each environment
+* **Ambient motion** — continuous, low-intensity animation (drifting particles, swaying foliage, shifting light) keeps environments feeling alive rather than static
+* **Panel reveal animations** — context-aware information panels slide or fade into view, keeping the interface unobtrusive until the user engages with a landmark
+
+### Animation Tooling
+
+* **Motion** handles component-level animation: entrances, exits, hover states, and scene transitions within the React component tree
+* **GSAP (planned)** will drive more complex, timeline-based sequences such as multi-step scene choreography and synchronized audio-visual cues
+* Animation timing and easing are kept consistent across environments to preserve the platform's refined, cinematic visual language
+
+### Design Considerations
+
+* Animations are tuned to support immersion without slowing down interaction or feeling excessive
+* Reduced-motion support is planned so users with motion sensitivity can experience the platform comfortably
+* Animation performance is monitored to keep transitions smooth across devices, particularly as 3D and WebGL features are introduced
+
+---
 
 ### 1. Clone the Repository
 
